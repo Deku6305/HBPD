@@ -88,3 +88,28 @@ body {
   display: block;
   max-height: 300px; /* Giới hạn chiều cao tối đa */
 }
+/* Media Query cho màn hình nhỏ */
+@media (max-width: 600px) {
+  #thu-chuc {
+    width: 95%;
+    padding: 15px;
+    max-height: 85vh;
+  }
+
+  #thu-chuc h3 {
+    font-size: 18px;
+  }
+
+  .thu-noi-dung p {
+    font-size: 14px;
+  }
+
+  canvas {
+    height: 100vh;
+  }
+
+  p {
+    font-size: 14px;
+    top: calc(100vh - 40px);
+  }
+}
